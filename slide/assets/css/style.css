@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Yantramanav:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Yantramanav:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.bg-color {
+
+    background-color: #000;
+}
+
+.min-vh-100 {
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.testimonial {
+    color: #FF5300;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 146px;
+    padding-top: 120px;
+}
+
+.mxauto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mainheading {
+    color: #373737;
+    font-family: Poppins;
+    font-size: 39px;
+    font-weight: 600;
+    line-height: 59px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 462px;
+    padding-top: 10px;
+
+}
+
+
+.card {
+    width: 350px;
+    border-radius: 10px;
+    background: var(--whit, #FFF);
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.10);
+    padding: 20px;
+}
+
+.pt60 {
+    padding-top: 60px;
+}
+
+.para1 {
+    color: var(--paragraph, #7B7B7B);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    width: 320px;
+}
+
+.d_flex {
+    display: flex;
+}
+
+.pt_25 {
+    padding-top: 25px;
+}
+
+.name {
+    color: var(--orange, #FF5300);
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.name2 {
+    color: var(--paragraph, #7B7B7B);
+    font-family: Poppins;
+    font-size: 12.8px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 19.2px;
+}
+
+.pl15 {
+    padding-left: 15px;
+}
+
+.pl5 {
+    padding-left: 5px;
+}
+
+.pt5 {
+    padding-top: 5px;
+}
+
+.pl30 {
+    padding-left: 30px;
+}
+
+.pl25 {
+    padding-left: 25px;
+}
+
+.pl18 {
+    padding-left: 5px;
+}
+.next,.prev{
+    color: bisque;
+    background-color: #FFF7F4 ;
+    width: 50px;
+height: 50px;
+border:2px solid #373737  ;
+border-radius: 50px;
+cursor: pointer;
+transition: all .4ms;
+}
+.prev:hover,
+.next:hover {
+    background-color: #fff;
+    color: #FF5300;
+   
+
+} 
